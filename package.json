@@ -3,6 +3,9 @@
   "description": "",
   "version": "1.0.0",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
