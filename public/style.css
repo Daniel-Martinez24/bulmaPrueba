@@ -1,0 +1,14 @@
+.main {
+    background-image: url('./static/fondo.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 700px) {
+    .main {
+        background-image: url('./static/video.webm');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
