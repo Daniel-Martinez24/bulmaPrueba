@@ -4,11 +4,98 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.invitados {
+    font-size: 14px;
+}
+.fromInvitados{
+    font-size: 14;
+    font-weight: normal;
+    color: #828282;
+}
+.is-rounded{
+    border: white 3px solid;
+}
+.media+.media {
+    border-top: 0px solid rgba(219,219,219,.5); 
+    margin-top: 1rem;
+    padding-top: 0rem;
+}
+.media .media {
+    border-top: 0px solid rgba(219,219,219,.5); 
+    margin-top: 0rem;
+    padding-top: 0rem;
+}
 
+.media+.media {
+    border-top: 0px solid rgba(219,219,219,.5); 
+    margin-top: 1rem;
+    padding-top: 0rem;
+}
+.titleLittle {
+    font-size: 14;    
+    margin-bottom: 1em;
+}
+.boletos{
+    font-size: 12px;
+}
+.content {
+    margin-top: 1.5rem;
+}
+.content h3 {
+    font-size: 40px;
+}
+.content h3:not(:first-child) {
+    margin: 0%;
+}
+.card{
+    width: 30%;
+    border-radius: 3px 3px 3px 3px;
+}
+.centradoLateral{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pequenia{
+    width: 10%;
+    border-radius: 3px 3px 3px 3px;
+}
+.footer{
+    color: white;
+    background-color:  #2D2D2D;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 10px;
+}
+
+.footer a{
+    color: white;
+}
 @media (min-width: 700px) {
     .main {
         background-image: url('./static/video.webm');
         background-size: 100%;
         background-repeat: no-repeat;
+    }
+    .mobile {
+        display:none;
+    }
+    .media+.media {
+        border-top: 0px solid rgba(219,219,219,.5); 
+        margin-top: 1rem;
+        padding-top: 0rem;
+    }
+    .footer{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .desktop {
+        display: none;
     }
 }
