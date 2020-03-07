@@ -39,7 +39,7 @@
     font-size: 12px;
 }
 .content {
-    margin-top: 1.5rem;
+    margin-top: .5rem;
 }
 .content h3 {
     font-size: 40px;
@@ -52,7 +52,6 @@
     border-radius: 3px 3px 3px 3px;
 }
 .centradoLateral{
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,8 +59,9 @@
 }
 
 .pequenia{
-    width: 10%;
+    width: 100%;
     border-radius: 3px 3px 3px 3px;
+    background: rgba(255, 255, 255, 0.75);
 }
 .footer{
     color: white;
@@ -74,14 +74,15 @@
 .footer a{
     color: white;
 }
+
 @media (min-width: 700px) {
+    .mobile {
+        display:none;
+    }
     .main {
         background-image: url('./static/video.webm');
         background-size: 100%;
         background-repeat: no-repeat;
-    }
-    .mobile {
-        display:none;
     }
     .media+.media {
         border-top: 0px solid rgba(219,219,219,.5); 
@@ -97,5 +98,17 @@
 @media (max-width: 700px) {
     .desktop {
         display: none;
+    }
+    .pequenia{
+        background: #2D2D2D;
+    }
+    .card{
+        background-color: ;
+    }
+    .content h3 {
+        color: #fff;
+    }
+    .centradoLateral{
+        color: #fff;
     }
 }
