@@ -63,6 +63,34 @@
     border-radius: 3px 3px 3px 3px;
     background: rgba(255, 255, 255, 0.75);
 }
+
+.mapa {
+    position: absolute;
+    width: 100%;
+    margin-top: 5vh;
+    color: #fff;
+}
+.lugar{
+    z-index: 100;
+    top: 200%;
+    color: #fff;
+}
+.lienzo {
+    z-index: -100;
+    top: 300%;
+    color: #fff;
+}
+
+.mapaInferioro {
+    position: absolute;
+    width: 100%;
+    margin-top: 90vh;
+    color: #fff;
+}
+.direccion{
+    top: 10%;
+}
+
 .footer{
     color: white;
     background-color:  #2D2D2D;
