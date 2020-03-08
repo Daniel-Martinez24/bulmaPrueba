@@ -164,10 +164,22 @@
     .mapa {
         margin-top: 6vh;
     }
+    .cuerpo h3{
+        font-size: medium;
+    }
+    .cuerpo h1{
+        font-size: 30px;
+    }
+    .cuerpo p{
+        font-size: small;
+    }
     
 }
 
 @media (max-width: 700px) {
+    .deskop{
+        display: none;
+    }
 
   .descripcion {
     background: url('https://firebasestorage.googleapis.com/v0/b/diferentes-a2ca8.appspot.com/o/foto%20concierto%20anterior%20-%20bn.jpg?alt=media&token=0820554c-d11d-48ff-b9b3-44e2816c81ac');
