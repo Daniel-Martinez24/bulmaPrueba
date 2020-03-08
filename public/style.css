@@ -102,6 +102,23 @@
     color: #fff;
 }
 
+.descripcion {
+
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  
+    background: url('https://firebasestorage.googleapis.com/v0/b/diferentes-a2ca8.appspot.com/o/foto%20concierto%20anterior%20-%20bn.jpg?alt=media&token=0820554c-d11d-48ff-b9b3-44e2816c81ac');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .footer{
     color: white;
     background-color:  #2D2D2D;
@@ -112,6 +129,15 @@
 
 .footer a{
     color: white;
+}
+.cuerpo h3{
+    font-size: small;
+}
+.cuerpo h1{
+    font-size: 20px;
+}
+.cuerpo p{
+    font-size: small;
 }
 @media (min-width: 700px) {
     .mobile {
@@ -142,6 +168,14 @@
 }
 
 @media (max-width: 700px) {
+
+  .descripcion {
+    background: url('https://firebasestorage.googleapis.com/v0/b/diferentes-a2ca8.appspot.com/o/foto%20concierto%20anterior%20-%20bn.jpg?alt=media&token=0820554c-d11d-48ff-b9b3-44e2816c81ac');
+    /*esto es lo importate tamaño de imagen*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 45vh;
+}
     .desktop {
         display: none;
     }
