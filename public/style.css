@@ -80,6 +80,11 @@
     top: 300%;
     color: #fff;
 }
+.icono{
+    z-index: -100;
+    margin-top: 30vh;
+    margin-left: -24vh;
+}
 
 .mapaInferioro {
     position: absolute;
@@ -108,7 +113,6 @@
 .footer a{
     color: white;
 }
-
 @media (min-width: 700px) {
     .mobile {
         display:none;
@@ -144,6 +148,12 @@
     .pequenia{
         background: #2D2D2D;
     }
+
+    .icono{
+        margin-top: 8vh;
+        margin-left: -24vh;
+    }
+
     .card{
         background-color: ;
     }
