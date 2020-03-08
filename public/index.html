@@ -225,15 +225,13 @@
       <div class="mapa has-text-centered">
         <h2 class="lugar"><strong style="color: rgba(255, 255, 255, 255);">LUGAR DEL EVENTO</strong></h2>
         <h1 class="lienzo ">Lienzo Charro “Los Tamaulipecos”</h1 class="lienzo">
-
       </div>
       <div class="mapaInferioro has-text-centered">
-
         <h2 class="direccion">Las Fuentes Coloniales, #88703 Reynosa, Tamps. </h2>
       </div>
-      <div id='map' class="mobile" style='width: 100%; height: 50vh;z-index: -100;'></div>
-
-      <div id='map' class="desktop" style='width: 100%; height: 100vh;z-index: 100;'></div>
+      <div id='map' style='width: 100%; height: 50vh; z-index: -1;'>
+      
+      </div>
       <script>
       mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuaWVsbWFydGluZXoyNCIsImEiOiJjazYzdG1mZnEwZHV4M21wOTU4dmpjY25jIn0.5xxPgyy2muUHlgrhHXZQ4A';
       var map = new mapboxgl.Map({
@@ -242,6 +240,10 @@
       center: [-98.3121804, 26.0523096],  
       zoom: 15
       });
+      if (screen.width > 700) {
+        var map = document.getElementById('map');
+        map.style.height = '100vh';   
+      }
       </script>
       
       <footer class="footer">

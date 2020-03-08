@@ -67,7 +67,7 @@
 .mapa {
     position: absolute;
     width: 100%;
-    margin-top: 5vh;
+    margin-top: 3vh;
     color: #fff;
 }
 .lugar{
@@ -86,9 +86,15 @@
     width: 100%;
     margin-top: 90vh;
     color: #fff;
+    margin-top: 38vh;
 }
 .direccion{
     top: 10%;
+}
+
+.hero.is-primary {
+    background-color: transparent;
+    color: #fff;
 }
 
 .footer{
@@ -119,6 +125,14 @@
     }
     .footer{
         font-size: 12px;
+    }
+
+    .mapaInferioro {
+        margin-top: 90vh;
+    }
+
+    .mapa {
+        margin-top: 6vh;
     }
     
 }
