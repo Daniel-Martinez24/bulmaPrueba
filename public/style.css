@@ -171,6 +171,12 @@
         font-size: 12px;
     }
 
+    .boletos{
+        font-size: 16px;
+    }
+    .titleLittle{
+        font-size: 22px;
+    }
     .mapaInferioro {
         margin-top: 90vh;
     }
@@ -269,6 +275,7 @@
     justify-content: center;
     align-items: flex-start;
     text-align: center;
+    padding: 0%;
   }
   
     
