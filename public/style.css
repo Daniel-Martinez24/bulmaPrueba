@@ -139,6 +139,20 @@
 .cuerpo p{
     font-size: small;
 }
+.mt25text{
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  font-style: normal;
+  font-weight: normal;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+.tituloOrg{
+    color:  #fff;
+    font-weight: 600;
+}
 @media (min-width: 700px) {
     .mobile {
         display:none;
