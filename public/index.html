@@ -14,44 +14,58 @@
   </head>
   <body >
 
-
-    <section class="hero main">
-      <!-- Hero head: will stick at the top -->
-      <div class="hero-head">
-          <div class="media">
-            <div class="media-left is-widescreen" >
-                <button class="button is-rounded is-small"><strong style="color: #00279B;" >MT25 Producciones</strong></button>
-            </div>
-            <div class="media-content">
-            </div>
-            <div class="media-right">
-                <button class="button is-white is-small"><strong>ACCEDE A TU CUENTA</strong></button>
-            </div>
-        </div>
-      </div>
-    
-      <!-- Hero content: will be in the middle -->
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title">
-            Title
-          </h1>
-          <h2 class="subtitle">
-            MARZO 26 DE 18:00 A 22:00 HORAS 
-          </h2>
-          <h2 class="subtitle">
-            En el Lienzo Charro “Los Tamaulipecos” Reynosa, Tamaulipas.
-          </h2>
-        </div>
-      </div>
-    </section>
-
-  <div class="container">
-    <div class="notification">
-      This container is <strong>centered</strong> on desktop.
-      
+    <div id="navBar" class="text">
+      <ul id="izquiera">
+        <li id="imagen">
+          <a>
+            <img src="./static/logo.png" alt="">
+          </a>
+        </li>
+        <li style="padding-top: 3%;">
+          <button class="button is-rounded is-small"><strong style="color: #00279B;" >MT25 Producciones</strong></button>
+        </li>
+      </ul>
+      <ul id="derecha">
+        <li>
+          <button class="button is-text is-small" style="text-decoration:none; color: #fff;"><strong>ACCEDE A TU CUENTA</strong></button>
+        </li>
+      </ul>
     </div>
-  </div>
+
+
+    <video id = "video" loop=»loop» autoplay=»autoplay» src="./static/video.webm"></video>
+    <div class="main">
+      <div>
+        <br>
+        <br>
+        <h1 class="title">
+          <img style="z-index:100;" src="./static/shekinahLetters.svg" alt="">
+        </h1>
+        <h2 class="subtitle">
+          EL ARCA EN MOVIMIENTO
+        </h2>
+        <h3 class="fecha">
+          MARZO 26
+        </h3>
+        <h3 class="fecha">
+          DE 18:00 A 22:00 HORAS
+        </h3>
+        <br>
+        <h3 class="lugar">
+          En el Lienzo Charro "Los Tamaulipecos"
+        </h3>
+        <h3 class="lugar">
+          Reynosa, Tamaulipas
+        </h3>
+        <br>
+        <button class="button deskop is-success is-rounded"><strong>
+          COMPRAR ENTRADAS
+        </strong></button>
+        <button class="button mobile is-small is-success is-rounded"><strong>
+          COMPRAR ENTRADAS
+        </strong></button>
+      </div>
+    </div>
 
   <!--invitados-->
     <section class="hero is-primary is-medium">
