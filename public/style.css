@@ -509,3 +509,11 @@
     padding-bottom: 2px;
   }
 }
+
+
+@media (max-width: 330px) {
+    /* main */
+  .cuerpo {
+    margin-top: -11%;
+ }
+}
